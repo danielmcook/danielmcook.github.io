@@ -2,21 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <meta name="viewport">
     <title>Daniel Cook - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="jquery.js"></script>
     <script src="app.js"></script>
 </head>
-<body id="body">
-    <div class="scroll-reminder">
-        <h1>Scroll this way >>></h1>
+<body>
+    <div id="hero">
+        <div id="title">
+            <h1>Daniel Cook</h1>
+            <div class="wrap">
+                <button id="explore">Explore</button>
+            </div>
+        </div>
     </div>
     <div class="background">
         <div class="vignette"></div>
         <div class="triangles"></div>
     </div>
-    <section id="content">
+    <div id="main">
         <div id="timeline">
             <ol>
                 <li><h1 id="one">About</h1></li>
@@ -25,42 +30,83 @@
                 <li><h1 id="four">2024</h1></li>
             </ol>
         </div>
-        <div class="main">
-            <div id="title">
-                <h1>Daniel Cook</h1>
-                <div class="wrap">
-                    <button id="explore">Explore</button>
+        <div class="content">
+            <h1>ABOUT</h1>
+            <div class="cards">
+                <div class="card">
+                    <p>Welcome to my personal portfolio website! This project details my previous entrepreneurial endeavours, as well as my experience competing in Skills Canada Website competitions.</p>
+                </div>
+                <div class="card" id="dcBaby"></div>
+                <div class="card">
+                    <h2>Start Scrolling!</h2>
                 </div>
             </div>
-            <div id="all">
-                <ol>
-                    <li>
-                        <h1>ABOUT</h1>
-                        <div class="content">
-                            <p>Welcome to my personal portfolio website! This project details my previous entrepreneurial endeavours, as well as my experience competing in Skills Canada Website competitions.</p>  
-                             <img src="DCBaby.JPEG" alt="me as a baby">
-                         
-                        </div>
-                        <h2>Scroll >></h2>
-                    </li>
-                    <li>
-                        <h1>SKILLS</h1>
-                        <div class="content2">
-                            <div class="image-container">
-                                <img src="IMG_4428-removebg-preview.png" alt="skills canada medal" id="medal">
-                            </div>
-                            <div class="text-container">
-                                <p>I've placed second in the 29th Annual BC Skills Canada Website Competition, and I'm going back for <b>round two this year!</b></p>  
-                            </div>
-                           
-                        </div>
-                    </li>
-                </ol>
+            <h1>SKILLS</h1>
+            <div class="cards">
+                <div class="card">
+                    <p>In April of 2023, I placed second in the 29th Provincial Skills Canada Website Competition! This year, I’m going back to the provincials for round two. Like many other projects, this portfolio website has acted as practice for me to further prepare myself for this make-or-break competition.</p>
+                </div>
+                <div class="card" id="medal"></div>
+                <div class="card">
+                    <div>
+                        <h2>March</h2>
+                        <p>Won <b>first place</b> in the Earl Marriott Website Development Compeititon.</p>
+                        <h2>2023</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h2>April</h2>
+                        <p>Won <b>second place</b> in the Earl Marriott Website Development Compeititon.</p>
+                        <h2>2023</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h2>March</h2>
+                        <p>Won <b>first place</b> in the Skills BC Regional Website Development Competition.</p>
+                        <h2>2024</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h2>April</h2>
+                        <p>I’m competing in the 30th Annual Provincial Skills Canada Website Competition! <b></b></p>
+                        <h2>2024</h2>
+                    </div>
+                </div>
+            </div>
+            <h1>2023</h1>
+            <div class="cards">
+                <div class="card" id="fl"></div>
+                <div class="card">
+                    <p>Founded in July of 2023, <b>Fightline</b> is my boxing supply company that I started with a friend from my Entrepreneurship 12 class.</p>
+                </div>
+                <div class="card">
+                    <p>I began the development of this e-commerce site in the eleventh grade and took several months to develop the website, branding, and social media platforms that I presently use to sell boxing supplies to members of my community.</p>
+                </div>
+                <div class="card" id="flLink">
+                    <a href="https://www.fightline.ca">fightline.ca</a>
+                </div>
+                <div class="card" id="whey"></div>
+            </div>
+            <h1>2024</h1>
+            <div class="cards">
+                <div class="card" id="dlpw">
+                    <section>
+                        <div><a href="http://www.dlpw.ca">DLPW.CA</a></div>
+                        <h2>Daniel-lachlan pressure washing</h2>
+                    </section>
+                </div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
             </div>
         </div>
-        <footer>
-            <p>Daniel Cook's District Authority Application 2024.</p>
-        </footer>
-    </section>
+    </div>
+    <footer>
+        <p>Daniel Cook's District Authority Application 2024.</p>
+    </footer>
 </body>
 </html>
