@@ -179,11 +179,21 @@ body {
     max-width: 50%;
 }
 
+.content #dlLink {
+    max-width: 50%;
+}
+
 .content #whey {
     background-image: url(images/whey.png);
     background-size: cover;
     max-width: 50%;
 }
+
+.content #dlLink a {
+    font-size: 6vw;
+    color: rgba(255,255,255,0.5);
+}
+
 
 .content #flLink a {
     font-size: 6vw;
@@ -192,6 +202,14 @@ body {
 
 .content #flLink a:hover {
     color: white;
+}
+
+.content #dlLink a:hover {
+    color: white;
+}
+
+.content .lachlans {
+    max-width: 40%;
 }
 
 .content #dlpw {
@@ -289,6 +307,7 @@ body {
     text-align: center;
     line-height: 1em;
     font-size: calc(40px + 5vw);
+    overflow-y: hidden;
 }
 
 .wrap {
